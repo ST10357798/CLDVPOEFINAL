@@ -1,0 +1,105 @@
+﻿@model IEnumerable<CLDVPOE1.Models.Event>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+<!-- Filter Form for Advanced Filtering -->
+<form method="get" class="mb-4">
+    <div class="row">
+        <!-- Event Type Dropdown -->
+        <div class="col-md-3">
+            <label>Event Type</label>
+            <select name="searchType" class="form-control">
+                <option value="">-- All Types --</option>
+                @foreach (var type in (List<EventType>)ViewData["EventTypes"])
+                {
+                    <option value="@type.Name">@type.Name</option>
+                }
+            </select>
+        </div>
+
+        <!-- Venue Dropdown -->
+        <div class="col-md-3">
+            <label>Venue</label>
+            <select name="venueId" class="form-control">
+                <option value="">-- All Venues --</option>
+                @foreach (var venue in (List<Venue>)ViewData["Venues"])
+                {
+                    <option value="@venue.VenueId">@venue.VenueName</option>
+                }
+            </select>
+        </div>
+
+        <!-- Start Date -->
+        <div class="col-md-3">
+            <label>Start Date</label>
+            <input type="date" name="startDate" class="form-control" />
+        </div>
+
+        <!-- End Date -->
+        <div class="col-md-3">
+            <label>End Date</label>
+            <input type="date" name="endDate" class="form-control" />
+        </div>
+    </div>
+
+    <!-- Submit Buttons -->
+    <div class="mt-3">
+        <button type="submit" class="btn btn-primary">Filter</button>
+        <a href="/Event/Index" class="btn btn-secondary ml-2">Clear</a>
+    </div>
+</form>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.EventName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EventDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EventDescription)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.EventName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EventDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EventDescription)
+            </td>
+             <td> 
+                 <a asp-action="Edit" asp-route-id="@item.EventId">Edit</a> 
+                 <a asp-action="Details" asp-route-id="@item.EventId">Details</a>
+                 <a asp-action="Delete" asp-route-id="@item.EventId">Delete</a> 
+             </td> 
+        </tr>
+}
+    </tbody>
+</table>

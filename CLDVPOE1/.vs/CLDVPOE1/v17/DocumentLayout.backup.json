@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jeely\\OneDrive\\Desktop\\CLDVPART1\\CLDVPOE1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FAA89B4B-C888-4B57-832C-2BF16ACDCA0F}|CLDVPOE1.csproj|c:\\users\\jeely\\onedrive\\desktop\\cldvpart1\\cldvpoe1\\models\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAA89B4B-C888-4B57-832C-2BF16ACDCA0F}|CLDVPOE1.csproj|solutionrelative:models\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAA89B4B-C888-4B57-832C-2BF16ACDCA0F}|CLDVPOE1.csproj|c:\\users\\jeely\\onedrive\\desktop\\cldvpart1\\cldvpoe1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAA89B4B-C888-4B57-832C-2BF16ACDCA0F}|CLDVPOE1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAA89B4B-C888-4B57-832C-2BF16ACDCA0F}|CLDVPOE1.csproj|c:\\users\\jeely\\onedrive\\desktop\\cldvpart1\\cldvpoe1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FAA89B4B-C888-4B57-832C-2BF16ACDCA0F}|CLDVPOE1.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAA89B4B-C888-4B57-832C-2BF16ACDCA0F}|CLDVPOE1.csproj|c:\\users\\jeely\\onedrive\\desktop\\cldvpart1\\cldvpoe1\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAA89B4B-C888-4B57-832C-2BF16ACDCA0F}|CLDVPOE1.csproj|solutionrelative:controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAA89B4B-C888-4B57-832C-2BF16ACDCA0F}|CLDVPOE1.csproj|c:\\users\\jeely\\onedrive\\desktop\\cldvpart1\\cldvpoe1\\views\\event\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FAA89B4B-C888-4B57-832C-2BF16ACDCA0F}|CLDVPOE1.csproj|solutionrelative:views\\event\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAA89B4B-C888-4B57-832C-2BF16ACDCA0F}|CLDVPOE1.csproj|c:\\users\\jeely\\onedrive\\desktop\\cldvpart1\\cldvpoe1\\views\\event\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FAA89B4B-C888-4B57-832C-2BF16ACDCA0F}|CLDVPOE1.csproj|solutionrelative:views\\event\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jeely\\OneDrive\\Desktop\\CLDVPART1\\CLDVPOE1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\jeely\\OneDrive\\Desktop\\CLDVPART1\\CLDVPOE1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T15:25:12.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\jeely\\OneDrive\\Desktop\\CLDVPART1\\CLDVPOE1\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\jeely\\OneDrive\\Desktop\\CLDVPART1\\CLDVPOE1\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-22T15:25:05.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DatabaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\jeely\\OneDrive\\Desktop\\CLDVPART1\\CLDVPOE1\\Models\\DatabaseContext.cs",
+              "RelativeDocumentMoniker": "Models\\DatabaseContext.cs",
+              "ToolTip": "C:\\Users\\jeely\\OneDrive\\Desktop\\CLDVPART1\\CLDVPOE1\\Models\\DatabaseContext.cs",
+              "RelativeToolTip": "Models\\DatabaseContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T15:24:57.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "C:\\Users\\jeely\\OneDrive\\Desktop\\CLDVPART1\\CLDVPOE1\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EventController.cs",
+              "ToolTip": "C:\\Users\\jeely\\OneDrive\\Desktop\\CLDVPART1\\CLDVPOE1\\Controllers\\EventController.cs",
+              "RelativeToolTip": "Controllers\\EventController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAvwBwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T15:04:01.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeely\\OneDrive\\Desktop\\CLDVPART1\\CLDVPOE1\\Views\\Event\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Event\\Create.cshtml",
+              "ToolTip": "C:\\Users\\jeely\\OneDrive\\Desktop\\CLDVPART1\\CLDVPOE1\\Views\\Event\\Create.cshtml",
+              "RelativeToolTip": "Views\\Event\\Create.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAvwC4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-22T15:03:31.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeely\\OneDrive\\Desktop\\CLDVPART1\\CLDVPOE1\\Views\\Event\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Event\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\jeely\\OneDrive\\Desktop\\CLDVPART1\\CLDVPOE1\\Views\\Event\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Event\\Edit.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-22T14:50:04.22Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
